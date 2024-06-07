@@ -282,3 +282,26 @@ button:not(.btn):hover {
 .btn-lg {
     --bs-btn-border-radius: 0;
 }
+
+.career .text-photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.career .photo img {
+    width: 85%;
+    border-radius: 20px;
+}
+
+.career .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.career .zagolovok {
+    display: flex;
+    justify-content: center;
+}
