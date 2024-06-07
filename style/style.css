@@ -97,3 +97,29 @@ button:not(.btn):hover {
 .welcome .photo {
     display: flex;
 }
+.interests {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.interests .text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.interests .text h3 {
+    text-align: center;
+}
+
+.interests img {
+    width: 30%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.interests .photo {
+    display: flex;
+    justify-content: space-around;
+}
