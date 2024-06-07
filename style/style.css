@@ -392,7 +392,82 @@ footer h6 {
         font-size: 14px;
         padding: 20px;
     }
-    .portfolio .zagolovok h1{
+
+    .portfolio .zagolovok h1 {
         font-size: 36px;
+    }
+}
+
+@media (max-width:500px) {
+    .skills .text h1 {
+        font-size: 32px;
+    }
+
+    .skills .text h2 {
+        font-size: 20px;
+    }
+
+    .skills .text h3 {
+        font-size: 14px;
+    }
+
+    .welcome {
+        height: 130vw;
+    }
+
+    .welcome .photo img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .welcome .photo {
+        justify-content: center;
+    }
+
+    .welcome h1 {
+        font-size: 32px;
+    }
+
+    .welcome h2 {
+        font-size: 16px;
+    }
+
+    header {
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+
+    }
+
+    button:not(.btn).nav-btn {
+        border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+        font-size: 10px;
+    }
+
+    .interests h1 {
+        font-size: 32px;
+    }
+
+    .interests h3 {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .portfolio .zagolovok h1 {
+        font-size: 32px;
+    }
+
+    .career .text p{
+        font-size: 14px;
+    }
+    .monochrome p{
+        font-size: 14px;
+    }
+    .practice p{
+        font-size: 14px;
+    }
+    .interests img{
+        height: 250px;
     }
 }
