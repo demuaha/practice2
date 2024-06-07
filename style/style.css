@@ -471,3 +471,17 @@ footer h6 {
         height: 250px;
     }
 }
+@media (max-width:370px) {
+    .career .photo img{
+        height: 200px;
+        width: 180px;
+        padding-right: 5px;
+    }
+    .skills .image{
+        gap: 2px;
+    }
+    .welcome {
+        height: 160vw;
+    }
+    
+}
