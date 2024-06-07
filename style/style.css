@@ -191,3 +191,94 @@ button:not(.btn):hover {
     grid-column: 6/10;
     padding: 5px;
 }
+
+.portfolio .button {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .button a {
+    padding: 5px 30px !important;
+    display: block;
+    color: white;
+    width: 190px;
+    background-color: #000000;
+    border-radius: 7px;
+
+}
+
+.portfolio .zagolovok {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.practice .razvetv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.practice img {
+    width: 85%;
+}
+
+.practice .photo {
+    display: flex;
+    justify-content: center;
+}
+
+.practice .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.practice .text p {
+    text-align: center;
+}
+
+.portfolio .button a:hover {
+    color: #000000 !important;
+    transition: 300ms ease-in-out;
+    background-color: #8691B8;
+}
+
+.monochrome img {
+    width: 85%;
+}
+
+.monochrome {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.monochrome p {
+    text-align: center;
+}
+
+.monochrome .text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.monochrome .photo {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: var(--primary-hover);
+    --bs-btn-active-bg: var(--primary-active)
+}
+
+.btn-lg {
+    --bs-btn-border-radius: 0;
+}
