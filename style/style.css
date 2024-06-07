@@ -263,7 +263,7 @@ button:not(.btn):hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-right: 10px;
 }
 
@@ -274,8 +274,8 @@ button:not(.btn):hover {
 
 .btn-primary {
     --bs-btn-bg: var(--primary);
-    --bs-btn-border-color: none;
-    --bs-btn-hover-bg: var(--primary-hover);
+    --bs-btn-border-color: none !important;
+    --bs-btn-hover-bg: #8691B8 !important;
     --bs-btn-active-bg: var(--primary-active)
 }
 
@@ -304,4 +304,22 @@ button:not(.btn):hover {
 .career .zagolovok {
     display: flex;
     justify-content: center;
+}
+
+.meal_plane button {
+    color: #fff;
+    background-color: #000000;
+}
+
+.form-control {
+    background-color: #8691B8 !important;
+    opacity: 0.6;
+    border-color: black !important;
+}
+
+.registration h2 {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
