@@ -64,3 +64,36 @@ button:not(.btn):hover {
     box-shadow: none;
     border-radius: 0;
 }
+.welcome {
+    background-color: #8691B8;
+    height: 40vw;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome h1 {
+    color: #fff;
+    font-size: 54px;
+}
+
+.welcome h2 {
+    color: #fff;
+}
+
+.welcome .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 7%;
+}
+
+.welcome .photo img {
+    width: 330px;
+    height: 330px;
+}
+
+.welcome .photo {
+    display: flex;
+}
