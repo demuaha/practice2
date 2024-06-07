@@ -485,3 +485,9 @@ footer h6 {
     }
     
 }
+@media (max-width:330px) {
+    .career .photo img{
+        width: 150px;
+        height: auto;
+    }
+}
