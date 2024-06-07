@@ -345,3 +345,54 @@ footer p {
 footer h6 {
     font-weight: 600;
 }
+
+@media (max-width:720px) {
+    .skills .texth1 {
+        font-size: 36px;
+    }
+
+    .skills .text h2 {
+        font-size: 24px;
+    }
+
+    .skills .text h3 {
+        font-size: 14px;
+    }
+
+    .welcome {
+        height: 100vw;
+    }
+
+    .welcome h1 {
+        font-size: 36px;
+    }
+
+    .welcome h2 {
+        font-size: 20px;
+    }
+
+    header {
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+
+    }
+
+    button:not(.btn).nav-btn {
+        border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+        font-size: 10px;
+    }
+
+    .interests h1 {
+        font-size: 36px;
+    }
+
+    .interests h3 {
+        font-size: 14px;
+        padding: 20px;
+    }
+    .portfolio .zagolovok h1{
+        font-size: 36px;
+    }
+}
