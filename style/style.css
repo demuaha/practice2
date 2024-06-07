@@ -67,7 +67,7 @@ button:not(.btn):hover {
 
 .welcome {
     background-color: #8691B8;
-    height: 40vw;
+    height: 60vw;
     border-radius: 0 0 20px 20px;
     display: flex;
     justify-content: space-around;
@@ -322,4 +322,26 @@ button:not(.btn):hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer {
+    background: #8691B8;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+footer .links {
+    color: #BBBBBB;
+}
+
+footer .row .col {
+    width: max-content;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer h6 {
+    font-weight: 600;
 }
